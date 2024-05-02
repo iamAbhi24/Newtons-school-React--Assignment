@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color:#222222;
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #524747;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
