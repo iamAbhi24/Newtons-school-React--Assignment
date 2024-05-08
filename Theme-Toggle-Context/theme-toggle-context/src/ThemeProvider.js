@@ -6,14 +6,14 @@ export default themeContext;
 
 export const ThemeProvider=(props)=>{
    
-    const [globalTheme, setGlobalTheme]=useState("light");
+    const [globalTheme, setGlobalTheme]=useState(true);
 
     const toggleTheme=()=>{
-        if(globalTheme==="light"){
-        setGlobalTheme("dark");
+        if(globalTheme===true){
+        setGlobalTheme(false);
         }
         else{
-            setGlobalTheme("light");
+            setGlobalTheme(true);
         }
     }
 
